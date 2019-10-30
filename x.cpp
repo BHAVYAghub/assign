@@ -26,7 +26,7 @@ long long subarrayXor(int arr[], int n, int m)
 	for (int i = 1; i < n; i++)
 		xorArr[i] = xorArr[i - 1] ^ arr[i];
 
-	// Calculate the answer
+	
 	for (int i = 0; i < n; i++) {
 		// Find XOR of current prefix with m.
 		int tmp = m ^ xorArr[i];
