@@ -50,7 +50,7 @@ long long subarrayXor(int arr[], int n, int m)
 	return ans;
 }
 
-// Driver program to test above function
+
 int main()
 {
 	int arr[] = { 4, 2, 2, 6, 4 };
